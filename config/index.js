@@ -28,7 +28,7 @@ export const config = {
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "oM7Ym6KDYpkY-NdK-IulBfhvhvDM"}, 
+      {name: '自己',id: ""}, 
     ],
      
     /**
@@ -74,7 +74,7 @@ export const config = {
       // 在一起的日子
       {"keyword": "love_day", date: "2000-10-09"},
       // 结婚纪念日
-//       {"keyword": "marry_day", date: "2020-01-04"},
+     {"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
 //       {"keyword": "ex_day", date: "2022-08-31"},
       // sakana日
@@ -104,7 +104,7 @@ export const config = {
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: ""
+    LITERARY_PREFERENCE: "小说"
 
 
     }
