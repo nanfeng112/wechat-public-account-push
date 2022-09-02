@@ -19,11 +19,11 @@ export const config = {
     /**
      * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
      * [
-     *   {name: '老婆0', id: "Google---Chrome"}, 
+ 
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "Google---Chrome"}, 
+      {name: '老婆0', id: "Google---Chrome"}
       
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
@@ -38,9 +38,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "陕西",
     // 所在城市
-    CITY: "惠州",
+    CITY: "西安",
 
     /** 重要节日相关 */
 
